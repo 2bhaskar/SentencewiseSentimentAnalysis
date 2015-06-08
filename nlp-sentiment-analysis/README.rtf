@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf160
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13280\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs36 \cf0 Following are steps to make it run:\
+\
+1. Unzip the code.\
+\
+2. Opening it in Eclipse:\
+    \'97 Open Eclipse\
+    \'97 Eclipse \'97> File \'97> Import \'97> Maven -> Existing Maven project \'97> Link to the code location \'97> Next \'97> Finish\
+3. You will now able to see the project.\
+4. Run the code and be happy. :)\
+\
+===================================\
+Command line :\
+\
+\'97 First install Maven: http://maven.apache.org/download.cgi\
+\'97 cd <code folder>\
+\'97 mvn clean assembly-single\
+\'97 You will see a JAR file inside \'93target\'94 folder\
+\'97 To run type: java -cp target/<jar file name>  org.postdoc.algorithm.sentiment.impl.TestStanfordSentiment\
+\
+Note you have to add: a) Java compiler plug-in, and \'93compile jar with dependencies\'94 in pom.xml\
+Useful link: \
+1. http://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven\
+2. http://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html}
