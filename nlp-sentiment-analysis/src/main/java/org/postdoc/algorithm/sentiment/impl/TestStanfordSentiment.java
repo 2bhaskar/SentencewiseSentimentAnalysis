@@ -19,7 +19,8 @@ public class TestStanfordSentiment {
 	
 	private static Properties props;
 	private static StanfordCoreNLP pipeline;
-	
+
+	// Enter the text here.	
 	private static String text = "This is s sample sentence.";
 	
 	public static void main(String[] args){
